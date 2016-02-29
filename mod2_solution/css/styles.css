@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+    text-align: center;
+    margin: 30px;
+}
+
+h2{
+    text-align: center;
+    float: right;    
+    width: 140px;
+    border: 1px solid black;    
+    position: relative;
+}
+
+section{
+    height: 150px;
+    background-color: lightgray;
+    margin-left: 1%;
+    margin-bottom: 1%;
+}
+
+p{
+    clear: right;
+    padding: 10px;
+}
+
+.h2chicken{
+    background-color: #FF7F50;
+}
+
+.h2beef{
+    background-color: #A52A2A;
+}
+
+#h2sushi{
+    background-color: #ADFF2F;
+}
+
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-dt-4{
+    float: left;
+    border: 1px solid green;
+  }
+    
+  .col-dt-4 {    width: 32%;}
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-tb-6, .col-tb-12 {
+    float: left;
+    border: 1px solid black;
+  }
+  .col-tb-6 {    width: 48.5%;}
+  .col-tb-12 {    width: 98%;}
+}
+
+@media (max-width: 767px) {
+  .col-mob-12 {
+    float: left;
+    border: 1px solid red;
+  }
+  .col-mob-12 {    width: 98%;}
+}
+
